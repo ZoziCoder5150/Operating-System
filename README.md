@@ -1,8 +1,8 @@
 Dependences:  
-mtools, xorriso, make, and grub-common  
+mtools, xorriso, make, grub-common, ld (binutils), and nasm (and soon gcc)  
 install with:  
 ```bash
-sudo apt install mtools xorriso make grub-common -y
+sudo apt install mtools xorriso make grub-common binutils nasm -y
 ```  
 qemu-system is recommended for simulating the OS  
 install it with:  
